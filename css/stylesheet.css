@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+text-align: center;
+
+background-color: #FAFAFA;
+
+margin: 60px auto;
+}
+header h2{
+
+font-family: "Poppins", Arial, sans-serif;
+
+font-size: 28px;
+
+color: #000000;
+}
+.info p span{color: #fff;font-size: 16px;}
+.form{
+    display: flex;
+    height: 450px;
+    width: 55%;
+    margin: 30px auto;
+    margin-bottom: 300px;
+}
+.contact_form{
+
+width: 50%;
+
+padding: 40px 50px;
+
+background-color: #272A34;
+
+border-radius: 10px 0 0 10px;
+}
+.contact_form h3{
+    font-size: 28px;
+    font-family: "Poppins", Arial, sans-serif;
+    color: #fff;
+}
+form{
+
+}
+.flex{
+}
+form input{
+    font-size: 16px;
+    font-family: "Poppins", Arial, sans-serif;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #272A34;
+    border-bottom: 1px solid #52555D;
+}
+form input[type="submit"]{
+    width: auto;
+    background-color: #f39422;
+    color: #ffff;
+    border-radius: 6px;
+    padding: 10px 10px;
+}
+form textarea{
+    width: 100%;
+    font-size: 15px;
+    font-family: "Poppins", Arial, sans-serif;
+    border: none;
+    padding: 12px 0;
+    background-color: #272A34;
+    border-bottom: 1px solid #52555D;
+}
+.contact{
+
+background-color: #1C1E25;
+
+width: 50%;
+
+padding: 40px 50px;
+
+border-radius: 0 10px 10px 0;
+
+}
+.contact_right{
+
+}
+.contact_right h1{
+
+color: #fff;
+
+font-family: "Poppins", Arial, sans-serif;
+
+font-size: 18px;
+
+margin-bottom: 10px;
+}
+.contact_right p{
+
+color: #666666;
+
+font-family: "Poppins", Arial, sans-serif;
+
+font-size: 16px;
+
+margin-bottom: 10px;
+}   
+.info{
+    
+width: 100%;
+    
+text-align: center;
+    
+display: flex;
+    
+justify-content: left;
+}
+.icon{
+    background: #202229;
+    width: 40px;
+    height: 40px;
+    line-height: 46px;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+    border-radius: 21px;
+}
+
+.info p{
+    font-size: 16px;
+    font-family: "Poppins", Arial, sans-serif;
+    color: #666666;
+    margin-top: 13px;
+}
+.info p a{
+    color: #666666;
+    text-decoration: none;
+}
